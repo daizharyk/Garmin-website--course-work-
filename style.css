@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.navigation ul {
+  background-color: #81ac81;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  height: 50px;
+  width: 800px;
+  margin: auto;
+}
+
+.navigation li {
+  justify-content: ;
+  display: flex;
+  align-items: center;
+}
+
+.support {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    display: flex;
+
+}
+
+.freeground {
+  background-color: #000;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.freeground a {
+  color: #fff !important;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+  letter-spacing: .03rem;
+  line-height: 2;
+}
+
+
+.sport_fitness {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sport_fitness a {
+  color: #1a1a1a;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: .02rem;
+  line-height: 3;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+.banner img {
+  width:  100%;
+}

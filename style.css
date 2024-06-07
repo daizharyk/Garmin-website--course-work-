@@ -33,12 +33,16 @@ a {
 }
 
 .support {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  display: flex;
 
+}
+
+.nav_header {
+  -webkit-text-size-adjust: none;
 }
 
 .freeground {
@@ -56,8 +60,8 @@ a {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.8rem;
-  letter-spacing: .03rem;
+  font-size: 0.9rem;
+  letter-spacing: .05rem;
   line-height: 2;
 }
 
@@ -76,7 +80,7 @@ a {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  letter-spacing: .02rem;
+  letter-spacing: 0.05rem;
   line-height: 3;
 }
 
@@ -85,5 +89,48 @@ a {
 }
 
 .banner img {
-  width:  100%;
+  width: 100%;
+}
+
+
+
+
+.banner_text {
+  background-color: #81ac81;
+  font-optical-sizing: auto;
+  -webkit-text-size-adjust: none;
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 50px;
+}
+
+.banner_text h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  line-height: 1.25;
+  font-size: 35px;
+  box-sizing: ;
+}
+
+.banner_text p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
+  max-width: 350px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.container2 {
+  margin: 50px;
 }

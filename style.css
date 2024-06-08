@@ -3,14 +3,11 @@
 
 
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-}
 a {
   text-decoration: none;
 }
@@ -87,30 +84,28 @@ a {
   letter-spacing: 0.05rem;
   line-height: 3;
 }
+
 /* 
 .banner {
   max-width: 100%;
 } */
 
-.banner img {
-  max-width: 100%;
-  width: 100%;
+
+.banner {
+  position: relative;
 }
 
-
-
+.banner img {
+  max-width: 100%;
+  width: auto;
+}
 
 .banner_text {
-  background-color: #81ac81;
-  font-optical-sizing: auto;
-  -webkit-text-size-adjust: none;
-  color: #ffffff;
   position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
-  width: 100%;
-  height: auto;
-  text-align: left;
+  top: 28%;
+  left: 1%;
+  font-optical-sizing: auto;
+  color: #ffffff;
   padding: 50px;
 }
 
@@ -120,8 +115,7 @@ a {
   font-weight: 400;
   letter-spacing: 1.8px;
   line-height: 1.25;
-  font-size: 35px;
-  box-sizing: ;
+  font-size: 40px;
 }
 
 .banner_text p {
@@ -129,10 +123,11 @@ a {
   font-optical-sizing: auto;
   font-weight: 400;
   letter-spacing: 0.04rem;
-  max-width: 350px;
-  font-size: 17px;
+  max-width: 400px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 1.5;
+  padding-top: 20px;
 }
 
 
@@ -213,16 +208,70 @@ a {
 }
 
 
-.container3 {
+.container_card {
   position: relative;
-  text-align: center;
+  display: flex;
+  padding: 10px;
+}
+
+.container_card img {
+  max-width: 100%;
+}
+
+.imeg {
+  padding: 10px;
+}
+
+.container_card h3{
+  font-family: "Oswald";
+  letter-spacing: .05rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+
 
 }
 
-.info {
-  position: absolute;
+.info-entry {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 140px;
+}
 
+.info-advanced {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 140px;
+}
+
+.info-elite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 140px;
+}
+
+.container_card a {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: solid 1px #ffffff;
+  margin: 1rem 0 0;
+  padding: 0.5rem 1.5rem;
+  line-height: 1.15;
+  transition: 0.2s, color 0.2s;
+}
+
+.container_card a:hover{
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  color: #000;
 }

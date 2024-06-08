@@ -7,7 +7,10 @@
   margin: 0;
 }
 
-
+html, body {
+  width: 100%;
+  height: 100%;
+}
 a {
   text-decoration: none;
 }
@@ -210,18 +213,16 @@ a {
 }
 
 
-.card-container {
-  max-width: 50%;
-  width: 100%;
-  display: flex;
-  flex-direction:  row;
-  padding: 10px;
+.container3 {
+  position: relative;
+  text-align: center;
+
 }
 
-
-
-.card_title1 h3 {
+.info {
+  position: absolute;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+
 }

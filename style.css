@@ -13,7 +13,7 @@ a {
 }
 
 .navigation ul {
-  background-color: #81ac81;
+  /* background-color: #81ac81; */
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -24,6 +24,7 @@ a {
   height: 50px;
   width: 800px;
   margin: auto;
+  cursor: pointer;
 }
 
 .navigation li {
@@ -83,12 +84,13 @@ a {
   letter-spacing: 0.05rem;
   line-height: 3;
 }
-
+/* 
 .banner {
   max-width: 100%;
-}
+} */
 
 .banner img {
+  max-width: 100%;
   width: 100%;
 }
 
@@ -132,5 +134,94 @@ a {
 
 
 .container2 {
-  margin: 50px;
+  background: #fff;
+  width: auto;
+  margin: auto;
+  padding: 32px 16px;
+}
+
+.container2 h3 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: .05rem;
+  line-height: 1.25;
+  margin: 1.5rem 0;
+  font-size: 35px;
+}
+
+.card {
+  text-align: center;
+  color: #000;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+.container2 p {
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 18px;
+}
+
+
+.SHOPALL {
+  display: flex;
+  justify-content: center;
+}
+
+.SHOPALL a {
+  font-family: "Roboto";
+  color: #000;
+  transition: .2s;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 14px 20px;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+
+.SHOPALL a:hover {
+  border: 1px solid #fff;
+  background: #000;
+  color: #fff;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.card2 h2 {
+  font-family: "Oswald";
+  font-style: inherit;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #000;
+  letter-spacing: .05rem;
+  line-height: 1.25;
+}
+
+
+.card-container {
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction:  row;
+  padding: 10px;
+}
+
+
+
+.card_title1 h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

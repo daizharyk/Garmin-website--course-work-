@@ -378,3 +378,147 @@ a {
   background: #fff;
   color: #000;
 }
+
+
+footer {
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav_footer {
+  width: 100%;
+  
+}
+
+@media screen (min-width: 1200px) {
+ 
+  .nav_list {
+  display: flex ;
+  padding: 1.5rem;
+  }
+  
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.nav_list ul {
+  list-style: none;
+}
+
+.nav_list a {
+  font-weight: 400;
+  color: #fff;
+}
+
+.nav-list-item button{
+  color: #fff;
+  font-family: "Oswald";
+  font-weight: 400;
+  letter-spacing: .05rem;
+  border: 0;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-list-li  {
+  font-family: "Roboto";
+  position: relative;
+  font-size:0.8rem ;
+  font-weight: 400;
+}
+
+.nav-list-item {
+  margin-right: 3rem;
+  line-height: 1.5rem;
+  display: inline-block;
+  border-bottom: none;
+  list-style: none;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+
+.nav-list-li a:hover {
+  text-decoration: underline;
+}
+
+.socialmediafooter h4 {
+  color: #fff;
+  font-family:  "Roboto";
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin: 1rem 0 0 0;
+}
+
+
+.socialmediafooter h4:hover {
+  text-decoration: underline;
+}
+.socialmediafooter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.fotter_social_media {
+  min-width: 200px;
+  display: flex;
+  
+}
+
+.fotter_social_media_items {
+  margin: 0 1rem;
+}
+
+.white-line-footer {
+  width: 100%;
+  height: auto;
+  margin: 0 30px 0px 30px;
+  border-bottom: 5px solid #fff;
+}
+
+
+.foter_nav {
+  font-family: "Roboto";
+  font-size: .8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 30px 10px 30px;
+  color: #fff;
+  list-style: none;
+  font-weight: 500;
+  align-items: center;
+}
+
+
+.foter_nav_li {
+  display: flex;
+
+  
+
+}
+
+.foter_nav_li a{
+  color: #fff;
+}
+
+.foter_nav_li li {
+  padding: 15px;
+}

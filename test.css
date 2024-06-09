@@ -1,0 +1,30 @@
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: url(entry_level_running.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
+
+.info {
+  font-family: "Oswald";
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 30px;
+}
+.info a {
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.foter_nav_li a{
+  color: #fff;
+  
+}

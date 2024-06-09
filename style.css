@@ -12,6 +12,15 @@ a {
   text-decoration: none;
 }
 
+.support_p p{
+  display: flex;
+  align-items:center ;
+  
+}
+.support div {
+  align-items: center;
+  padding: 10px;
+}
 
   .support {
     font-family: "Roboto";
@@ -62,12 +71,14 @@ a {
   letter-spacing: 0.05rem;
 }
 
+
 .support {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
   display: flex;
+  
 
 }
 
@@ -391,19 +402,12 @@ footer {
   
 }
 
-@media screen (min-width: 1200px) {
- 
-  .nav_list {
-  display: flex ;
-  padding: 1.5rem;
-  }
-  
-}
+
 
 .nav_list {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 30px;
 }
 
 .nav_list ul {
@@ -490,7 +494,7 @@ footer {
   width: 100%;
   height: auto;
   margin: 0 30px 0px 30px;
-  border-bottom: 5px solid #fff;
+  border-bottom: 4px solid #fff;
 }
 
 
@@ -510,9 +514,8 @@ footer {
 
 .foter_nav_li {
   display: flex;
-
-  
-
+  width: 650px;
+  justify-content: flex-end;
 }
 
 .foter_nav_li a{
@@ -520,5 +523,10 @@ footer {
 }
 
 .foter_nav_li li {
-  padding: 15px;
+  padding-left: 25px;
 }
+
+.foter_nav_li a:hover {
+  text-decoration: underline;
+}
+

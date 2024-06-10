@@ -12,7 +12,6 @@
 .card-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   margin-top: 100px;
 }
 
@@ -73,3 +72,19 @@ sup {
   align-items: flex-end;
 }
 
+.containercards {
+  min-width: 250px;
+  text-align: left;
+  font-size: 0.875rem;
+  padding: .5em 1em;
+  font-family: "Roboto";
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.product-filter__filters__container {
+  display: flex;
+  padding: .75em .5em;
+  
+}

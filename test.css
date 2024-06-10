@@ -1,30 +1,75 @@
-.container3 {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.card-container {
   display: flex;
   justify-content: center;
-  align-items: end;
-  background: url(entry_level_running.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 400px;
-  height: 400px;
+  flex-wrap: wrap;
+  margin-top: 100px;
 }
 
-.info {
+.card3 {
+  width: calc(33.3333% - 1.5em);
+  margin: 20px;
+  box-shadow:  0.3px 1px 3px 1px #dfdcdc;
+}
+
+.card3 img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 0 1rem 1.5rem;
+  line-height: 1.5;
+}
+
+.card-content h4{
   font-family: "Oswald";
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  bottom: 30px;
-}
-.info a {
-  color: #ffffff;
-  list-style-type: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: .05rem;
+  line-height: 1.25;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 16px;
 }
 
-.foter_nav_li a{
-  color: #fff;
-  
+sup {
+  line-height: 1;
+  position: relative;
+  vertical-align: super;
 }
+.registered-symbol-card {
+    top: -.1rem;
+    font-size: max(.6875rem,.4em);
+}
+
+
+.card-content p {
+
+}
+
+.card-discription {
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+.price {
+  font-family: "Roboto";
+  font-weight: 700;
+  align-items: flex-end;
+}
+

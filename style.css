@@ -342,7 +342,7 @@ a {
   color: #ffffff;
   width: auto;
   margin: auto;
-  padding: 50px 25px;
+  padding: 30px 16px;
 }
 
 .container_text {
@@ -437,6 +437,7 @@ footer {
   position: relative;
   font-size:0.8rem ;
   font-weight: 400;
+  letter-spacing: 0.05rem;
 }
 
 .nav-list-item {
@@ -528,5 +529,118 @@ footer {
 
 .foter_nav_li a:hover {
   text-decoration: underline;
+}
+
+
+
+
+
+#container_text {
+  color: #000;
+}
+.container_base_light {
+  background: #fff;
+}
+
+
+
+.Cort_menu {
+  background: #d38080;
+  padding: 16px 0 16px 0;
+}
+
+.cards {
+  background: #d38080;
+  padding: 16px 0 16px 0;
+  display: flex;
+
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  margin: 0;
+  width: 350px;
+  height: 100%;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+
+.registered-symbol1 {
+  font-size: max(.6875rem,.4em);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card3 {
+  width: calc(33.3333% - 1.5em);
+  margin: 20px;
+  box-shadow:  0px 1px 1px 0.8px #dfdcdc;
+}
+
+.img-happy-dad image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  
+}
+.card3 img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 0 1rem 1.5rem;
+  line-height: 1.5;
+}
+
+.card-content h4{
+  font-family: "Oswald";
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: .05rem;
+  line-height: 1.25;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+sup {
+  line-height: 1;
+  position: relative;
+  vertical-align: super;
+}
+.registered-symbol-card {
+    top: -.1rem;
+    font-size: max(.6875rem,.4em);
+}
+
+
+.card-content p {
+
+}
+
+.card-discription {
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+.price {
+  font-family: "Roboto";
+  font-weight: 700;
+  align-items: flex-end;
 }
 

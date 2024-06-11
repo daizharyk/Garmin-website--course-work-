@@ -573,7 +573,7 @@ footer {
 
 .cards-container {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .card3 {
@@ -860,11 +860,12 @@ label {
   .container_card {
     padding: 0;
   }
+  .card3 {
+    width: 300px;
+  }
 }
 
-.card3 {
-  width: 300px;
-}
+
 
 
 

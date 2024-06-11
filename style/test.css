@@ -12,9 +12,15 @@
 .card-container {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  flex-flow: nowrap column;
+  margin-top: 30px;
+  width: 100%;
 }
 
+.cards-container {
+  display: flex;
+
+}
 .card3 {
   width: calc(33.3333% - 1.5em);
   margin: 20px;
@@ -73,18 +79,111 @@ sup {
 }
 
 .containercards {
+  display: flex;
   min-width: 250px;
   text-align: left;
   font-size: 0.875rem;
-  padding: .5em 1em;
+  padding: 16px 0 0 0;
   font-family: "Roboto";
   line-height: 1.5;
   font-weight: 400;
+  border-top: 1px solid #d9d9d9;
 
 }
 
 .product-filter__filters__container {
   display: flex;
   padding: .75em .5em;
-  
 }
+
+.product-filter__filters__container label {
+  cursor: pointer;
+}
+.sort-menu {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 0;
+  border-right: 1px solid #d9d9d9;
+}
+
+.cort-menu-title {
+  font-weight: 700;
+  padding: 1em 0;
+  box-sizing: inherit;
+  font-size: .875rem;
+  line-height: 1.5;
+}
+
+.grid__options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: inherit;
+  padding: 0 16px 0 16px;
+}
+
+
+
+.compare-buttom {
+display: inline-block;
+box-sizing: border-box;
+cursor: pointer;
+
+}
+  .compare-buttom  a {
+    background: #000;
+    font-family: "Roboto";
+    color: #fff;
+    font-family: ;
+    transition: .2s;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+    font-size: 0.9rem;
+    border: solid 1px #fff;
+    
+  }
+  
+  .compare-buttom  a:hover {
+    background: #fff;
+    color: #000;
+    border: solid 1px #000;
+    outline: none;
+  }
+
+  .select-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+
+  }
+
+  .select-option p {
+    margin-right: 1rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-align: left;
+    font-family: "ROboto";
+  }
+
+  .select-option select {
+    font-size: 1em;
+
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    appearance: none;
+    border: 1px solid #d9d9d9;
+    margin: 14 48px 14px 14px;
+    padding: 0.875rem 3em 0.875rem 0.875rem; 
+  }
+
+
+  label {
+    width: 270px;
+  }
